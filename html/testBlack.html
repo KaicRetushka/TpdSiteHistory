@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="../public/css/testBlack.css">
+    <link rel="icon" href="../public/img/logotip.png">
+</head>
+<body>
+    <!-- <div id="noVxod">
+        <div class="twoBut">
+            <a href="vxod.html" id="avtorBut"><h2>Авторизация</h2></a>
+            <a href="home.html" id="homeBut" ><h2>На главную</h2></a>
+        </div>
+    </div> -->
+
+    <div id="poleEnd">
+        <h1 id="outEnd"></h1>
+        <div class="twoBut">
+            <a href="test.html" id="returnBut"><h2>Повторить</h2></a>
+            <a href="homeBlack.html" id="homeButEnd" ><h2>На главную</h2></a>
+        </div>
+    </div>
+
+    <div id="taimer">00:00:00</div>
+    <div id="poleTest">
+        <h1 id="zagolovok">Тест</h1>
+        <p><b>1.</b> Для чего используется CSS?</p>
+        <input id="oneOne" type="radio" name="oneQue">   
+        <label for="oneOne">Для стилизации элементов HTML</label>
+        <br>
+        <input id="twoOne" type="radio" name="oneQue">   
+        <label for="twoOne">Для стилизации элементов JS</label>
+        <br>
+        <input id="threeOne" type="radio" name="oneQue">   
+        <label for="threeOne">Для написания бекенда</label>
+        <br>
+        <input id="fourOne" type="radio" name="oneQue">   
+        <label for="fourOne">Не используется в веб-разработке</label>
+        <p><b>2.</b> Что сложнее React Vue Angular?</p>
+        <input id="oneTwo" type="radio" name="twoQue">
+        <label style="margin-right: 70px;" for="oneTwo">React</label>
+        <input id="twoTwo" type="radio" name="twoQue">
+        <label style="margin-right: 70px;" for="twoTwo">Vue</label>
+        <input id="threeTwo" type="radio" name="twoQue">
+        <label style="margin-right: 70px;" for="threeTwo">Angular</label>
+        <p><b>3.</b> Может ли быть два одинаковых доменных имени?</p>
+        <input id="oneThree" type="radio" name="threeQue">
+        <label for="oneThree">Нет</label>
+        <br>
+        <input id="twoThree" type="radio" name="threeQue">
+        <label for="twoThree">Да</label>
+        <br>
+        <input id="threeThree" type="radio" name="threeQue">
+        <label for="threeThree">Да, но если человек, у которого такое же доменное имя разрешит</label>
+        <p><b>4.</b> Какие бывают типы баз данных?</p>
+        <input type="checkbox" name="fourQue" id="oneFour">
+        <label for="oneFour">Реляционные базы данных</label>
+        <br>
+        <input type="checkbox" name="fourQue" id="twoFour">
+        <label for="twoFour">Анимационные базы данных</label>
+        <br>
+        <input type="checkbox" name="fourQue" id="threeFour">
+        <label for="threeFour">Нереляционные базы данных</label>
+        <br>
+        <input type="checkbox" name="fourQue" id="fourFour">
+        <label for="fourFour">Документо-ориентированные базы данных</label>
+        <p><b>5.</b> Можно ли писать backend на html?</p>
+        <input type="radio" name="fiveQue" id="oneFive">
+        <label for="oneFive">Только если установить дополнительные библиотеки</label>
+        <br>
+        <input type="radio" name="fiveQue" id="twoFive">
+        <label for="twoFive">Да</label>
+        <br>
+        <input type="radio" name="fiveQue" id="threeFive">
+        <label for="threeFive">Нет</label>
+        <p><b>6.</b> Для чего используется HTML?</p>
+        <input type="radio" name="sixQue" id="oneSix">
+        <label for="oneSix">Для стилизации элементов CSS</label>
+        <br>
+        <input type="radio" name="sixQue" id="twoSix">
+        <label for="twoSix">Для создания структуры сайта</label>
+        <br>
+        <input type="radio" name="sixQue" id="threeSix">
+        <label for="threeSix">Для создания бекенда</label>
+        <br>
+        <input type="radio" name="sixQue" id="fourSix">
+        <label for="fourSix">Это база данных</label>
+        <p><b>7.</b> Что упрощает Bootstrap?</p>
+        <input type="radio" name="sevenQue" id="oneSeven">
+        <label for="oneSeven">Упрощает и ускоряет процесс разработки, делая интерфейсы более привлекательными</label>
+        <br>
+        <input type="radio" name="sevenQue" id="twoSeven">
+        <label for="twoSeven">Упрощает найти доменное имя</label>
+        <br>
+        <input type="radio" name="sevenQue" id="threeSeven">
+        <label for="threeSeven">Упрощает создание бекенда</label>
+        <br>
+        <input type="radio" name="sevenQue" id="fourSeven">
+        <label for="fourSeven">Упрощает работу с базами данных</label>
+        <p><b>8.</b> для чего используется JavaScript</p>
+        <input type="radio" name="eightQue" id="oneEight">
+        <label for="oneEight">Не используется в веб-разработке</label>
+        <br>
+        <input type="radio" name="eightQue" id="twoEight">
+        <label for="twoEight">Для стилизации CSS</label>
+        <br>
+        <input type="radio" name="eightQue" id="threeEight">
+        <label for="threeEight">Для стилизации HTML</label>
+        <br>
+        <input type="radio" name="eightQue" id="fourEight">
+        <label for="fourEight">Для добавления интерактивности на сайт</label>
+        <div style="width: 100%; display: flex; justify-content: center;"><div id="sendTestBut">Отправить</div></div>
+    </div>
+    <script src="../public/js/testBlack.js"></script>
+</body>
+</html>
