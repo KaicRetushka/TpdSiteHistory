@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #5cdb95;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    margin-top: 45px;
+}
+
+label:hover{
+    cursor: pointer;
+}
+
+p{
+    margin-top: 45px;
+}
+
+b{
+    color: #379683;
+}
+
+.twoBut{
+    display: flex;
+}
+
+#taimer{
+    z-index: 0;
+    width: 10%;
+    height: 10vh;
+    background-color: #edf5e1;
+    position: fixed;
+    margin-top: 25px;
+    border-radius: 30px;
+    right: 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+#poleTest{
+    box-sizing: border-box;
+    padding: 45px;
+    width: 70%;
+    background-color: #edf5e1;
+    border-radius: 60px;
+    margin-block: 25px;
+    font-size: 24px;
+}
+
+#zagolovok{
+    margin-bottom: 45px;
+    font-size: 40px;
+    color: #05386b;
+    text-align: center;
+}
+
+#divVariki{
+    display: flex;
+    flex-direction: column;
+}
+
+#sendTestBut{
+    text-decoration: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #379683;
+    box-sizing: border-box;
+}
+
+#sendTestBut:hover{
+    cursor: pointer;
+}
+
+#homeButEnd{
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #379683;
+    margin-left: 20px;
+}
+
+#homeButEnd:hover{
+    cursor: pointer;
+}
+
+#returnBut{
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #379683;
+}
+
+#returnBut:hover{
+    cursor: pointer;
+}
+
+#poleEnd{
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 100%;
+    background-color: #edf5e1;
+}
